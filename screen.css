@@ -5,11 +5,14 @@
             background-size: cover; /* Makes the image cover the entire container */
             background-position: center; /* Centers the image */
             background-repeat: no-repeat; }
-
-    .menu-padding{
+    .padding1{
+        padding-left: 80px;
+    }
+    .menu-setting{
         padding-top: 40px;
         padding-right:80px;
         text-align: right;
+        word-spacing: 20px;
     }
 
         .align-center {
@@ -35,16 +38,10 @@
             width: 100%; /* Adjust width to fit the container */
             height: auto; /* Maintain aspect ratio */
                         }  
-
-
-        .menu-spacing {
-            word-spacing: 20px;
-                      }
  
 
         .poppins-thick {
             padding-top: 120px;
-            padding-left: 80px;
             font-family: "Poppins" ;
             font-weight: 900;
             font-style: normal;
