@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        /* General Styling */
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .custom-bg {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .menu-spacing a {
+            text-decoration: none;
+            margin: 0 15px;
+            color: white;
+            font-weight: 600;
+        }
+
+        .menu-spacing a:hover {
+            text-decoration: underline;
+        }
+
+        .poppins-thick {
+            font-weight: 700;
+            font-size: 24px;
+            margin: 20px 0;
+        }
+
+        .poppins-medium {
+            font-weight: 400;
+            font-size: 18px;
+        }
+
+        /* Responsive Flexbox */
+        .content-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            gap: 20px;
+            background-color: #e5f6f7;
+        }
+
+        img.img_deg {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .poppins-new {
+            font-size: 16px;
+            text-align: justify;
+            padding: 0 15px;
+        }
+
+        /* Motivation Section */
+        .motivation {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .motivation .poppins-thick {
+            color: black;
+            padding-top: 20px;
+        }
+
+        .motivation-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .motivation-content img {
+            max-width: 80%;
+            height: auto;
+        }
+
+        .motivation-margin {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 0 15px;
+        }
+
+        .motivation-margin p {
+            font-size: 16px;
+            text-align: justify;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (min-width: 768px) {
+            .content-container {
+                flex-direction: row;
+                align-items: flex-start;
+                gap: 40px;
+                padding: 40px 20px;
+            }
+
+            .motivation-content {
+                flex-direction: row;
+                justify-content: space-between;
+                gap: 40px;
+            }
+
+            .motivation-margin {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .motivation-margin p {
+                width: 45%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="custom-bg">
+        <div class="menu-spacing" style="padding-top: 10px;">
+           <a href="sandee.html">Home</a>
+           <a href="page2.html">Progress</a>
+           <a href="page3.html">Team</a>
+           <a href="cadangan.html">Contact</a>
+        </div>
+        <div class="poppins-thick">
+            Beach Cleaning Robot Project <br>
+            by Freshmore Students SUTD
+        </div>
+        <div class="poppins-medium">
+            This project combines engineering creativity to create a machine to tackle <br>
+            environmental problems. Together, we're making a difference for a sustainable future.    
+        </div>
+    </div>
+
+    <div class="content-container">
+        <img src="picture/robot.jpg" class="img_deg" alt="Robot">
+        <p class="poppins-new">
+            Sand-E is one of the projects initiated by SUTD Organization of Autonomous Robots. It aims to create a machine that can clean the beach. The Sand-E robot is powered by lithium-polymer (LiPo) batteries and is a fully remote-controlled prototype. 
+        </p>
+    </div>
+
+    <div class="motivation">
+        <p class="poppins-thick">Motivation</p>
+        <div class="motivation-content">
+            <p>Focus on Sustainability</p>
+            <p>Reducing Physical Strength</p>
+        </div>
+        <div class="motivation-content">
+            <img src="picture/sustainable.png" alt="Sustainability">
+            <img src="picture/robothand.png" alt="Robot Hand">
+        </div>
+        <div class="motivation-margin">
+            <p>
+                The initiation of this project was to complement SUTD’s inherent culture and emphasis on sustainability, green initiatives, and innovation. SAND-E is made mostly of recycled or 3D printed parts, excluding the electronics.
+            </p>
+            <p>
+                This project was taken up mainly to reduce the physical strain experienced by our cleaners every day by automating the process. Since SAND-E is still in its prototyping stage, it is not able to fully take over the roles and responsibilities of the cleaner but in due time, it will be able to clean the beach autonomously without the need for arduous labour.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,125 @@
+  .custom-bg {
+            height: 500px;
+            width : 100%;
+            background-image: url('./picture/baru.jpg');
+            background-size: cover; /* Makes the image cover the entire container */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; }
+
+
+        .align-center {
+            text-align: center;
+                        }
+
+        .head{ font-size: 80px; }
+
+        a:link { 
+          text-decoration: none; 
+        } 
+        a:visited { 
+          text-decoration: none; 
+        } 
+        a:hover { 
+          text-decoration: none; 
+        } 
+        a:active { 
+          text-decoration: none; 
+        }
+        
+        .responsive-image {
+            width: 100%; /* Adjust width to fit the container */
+            height: auto; /* Maintain aspect ratio */
+                        }  
+
+
+        .menu-spacing {
+            word-spacing: 20px;
+                      }
+ 
+
+        .poppins-thick {
+            padding-top: 120px;
+            padding-left: 80px;
+            font-family: "Poppins" ;
+            font-weight: 900;
+            font-style: normal;
+            word-spacing: 10px;
+            text-align: left;
+            color: white;
+            font-size: 45px;
+            letter-spacing: 2px;
+                        }
+
+        .poppins-medium {
+            font-family: "Poppins" ;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 24px;
+
+                        }
+        .poppins-new {
+            font-family: "Poppins" ;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 17px;
+            color: black;
+                        }
+        .img_deg{
+            float: left;
+        }
+
+        .motivation-margin{
+            margin-top: -20px;
+            margin-left: 390px;
+            margin-right: 390px;
+        } 
+
+        .motivation-pictures{
+            margin-top: -20px;
+            margin-left: 490px;
+            margin-right:490px;
+        } 
+
+        .sustainable-picture{
+            width:200px;
+            height:200px;
+                            }
+        .robothand-picture{
+            width:  180px;
+            height: 170px;}
+        
+        .custom-bg1{
+        background-image: url('./picture/header2.jpg')}
+        
+        .poppins-thick1 {
+            padding-top: 40px;
+            padding-left: 80px;
+            padding-bottom: 230px;
+            font-family: "Poppins" ;
+            font-weight: 900;
+            font-style: normal;
+            word-spacing: 10px;
+            text-align: left;
+            color: black;
+            font-size: 50px;
+            letter-spacing: 2px;
+                        }
+
+          .menu-spacing {
+            word-spacing: 20px;
+                        }
+
+         .photo-size{
+            width: 700px;
+            height: 500px;
+        }
+
+           .padding-top{
+            padding-top: 80px;
+        }
+
+        .margin-text{
+            margin-left: 100px;
+            margin-right: 800px;
+        }  
+   
