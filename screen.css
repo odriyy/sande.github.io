@@ -8,6 +8,9 @@
     .padding1{
         padding-left: 80px;
     }
+    .padding2{
+        padding-bottom: 80px;
+    }
     .menu-setting{
         padding-top: 40px;
         padding-right:80px;
@@ -56,9 +59,8 @@
             font-family: "Poppins" ;
             font-weight: 500;
             font-style: normal;
-            font-size: 20px;
+            font-size: 20px; }
 
-                        }
         .poppins-new {
             font-family: "Poppins" ;
             font-weight: 500;
@@ -92,6 +94,12 @@
         
         .custom-bg1{
         background-image: url('./picture/header2.jpg')}
+
+        .custom-bgpage3{
+                height: 500px;
+                width: 100%;
+
+        }
         
         .poppins-thick1 {
             padding-top: 40px;
@@ -106,6 +114,29 @@
             font-size: 50px;
             letter-spacing: 2px;
                         }
+
+        .poppins-thick3 {
+            padding-top: 10px;
+            padding-left: 80px;
+            padding-bottom: 15px;
+            font-family: "Poppins" ;
+            font-weight: 900;
+            font-style: normal;
+            word-spacing: 10px;
+            text-align: left;
+            color: white;
+            font-size: 50px;
+            letter-spacing: 2px;
+                        }
+        .poppins-new3 {
+            margin-top: 20px;
+            font-family: "Poppins" ;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 17px;
+            color: white;
+
+        }
 
           .menu-spacing {
             word-spacing: 20px;
