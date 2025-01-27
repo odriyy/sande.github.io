@@ -5,6 +5,7 @@
             background-size: cover; /* Makes the image cover the entire container */
             background-position: center; /* Centers the image */
             background-repeat: no-repeat; }
+
     .padding1{
         padding-left: 80px;
     }
@@ -155,4 +156,31 @@
             margin-left: 100px;
             margin-right: 800px;
         }  
-   
+
+        .photo-page2{
+            width: 180px;
+            height: 170px;
+        }
+        
+        .big-poppins{
+            font-family: "Poppins" ;
+            font-weight: 900;
+            font-style: normal;
+            word-spacing: 10px;
+            text-align: left;
+            color: black;
+            font-size: 40px;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+        .medium-poppins{
+            font-family: "Poppins" ;
+            font-weight: 900;
+            font-style: normal;
+            word-spacing: 10px;
+            text-align: left;
+            color: black;
+            font-size: 20px;
+            letter-spacing: 1px;
+            text-align: center;  
+        }
