@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="screen.css">
     <link href="css/styles.css" rel="stylesheet"/>
-    <link href="css/styles2.css" rel="stylesheet"/>
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 
@@ -18,7 +17,8 @@
 <body class="d-flex flex-column h-100">
     <main class="flex-shrink-0">
      <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="custom-bg">
+        <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container px-5">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -32,30 +32,33 @@
                     </div>
                 </div>
             </nav>
-   <header class="bg-dark py-5">
+        <header class="py-5">
                 <div class="container px-5">
                     <div class="row gx-5 align-items-center justify-content-center">
                         <div class="col-lg-8 col-xl-7 col-xxl-6">
                             <div class="my-5 text-center text-xl-start">
                                 <h1 class="display-5 fw-bolder text-white mb-2 poppins-thick">Beach Cleaning Robot Project by Freshmore From SUTD</h1>
                                 <p class="lead fw-normal text-white-50 mb-4 poppins-medium">This project combinines engineering creativity to create a machine to tackle environmental problems. Together, we're making a difference for a sustainable future. </p>
-                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Get Started</a>
-                                    <a class="btn btn-outline-light btn-lg px-4" href="#!">Learn More</a>
-                                </div>
                             </div>
                         </div>
-                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." /></div>
+                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"></div>
                     </div>
                 </div>
-            </header>
-
-    <div style= "background-color: #e5f6f7 ;display: flex;">
-        <img src="picture/robot.jpg" style="width: 700px; height: 500px; padding-top: 80px; padding-left:80px; margin-bottom: 80px;" class="img_deg">      
-        <p class="poppins-new" style="margin-top: 200px; text-align: left; padding-left: 80px; padding-right: 80px; font-size: 20px;">
-            Sand-E is one of the project initiated by SUTD Organization of Autonomous Robots aims to create a machine that can clean the beach. The Sand-E robot is powered by lithium-polymer (LiPo) batteries that is a fully remote-controlledcprototype. 
-        </p>
     </div>
+            </header>
+        <div style="background-color :#e5f6f7;">
+         <section class="py-5" id="scroll-target">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="picture/robot.jpg" alt="..." /></div>
+                        <div class="col-lg-6">
+                            <h2 class="fw-bolder"> What is it?</h2>
+                            <p class="lead fw-normal text-muted mb-0"> Sand-E is one of the project initiated by SUTD Organization of Autonomous Robots aims to create a machine that can clean the beach. The Sand-E robot is powered by lithium-polymer (LiPo) batteries that is a fully remote-controlledcprototype.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
     <section class="features-icons text-center">
             <div class="container">
                 <h1 class="big-poppins" style=" padding-bottom: 40px">Motivation Behind Sand-E </h1> 
