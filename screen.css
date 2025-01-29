@@ -68,6 +68,14 @@
             color: black;
                         }
 
+         .poppins-medium2 {
+            font-family: "Poppins" ;
+            font-weight: 800;
+            font-style: normal;
+            font-size: 26px;
+            color: black;
+                        }
+
         .black{
             color: black;
         }
@@ -146,9 +154,9 @@
             word-spacing: 20px;
                         }
 
-         .photo-size{
-            width: 700px;
-            height: 500px;
+         .photo-size3{
+            width: 250px;
+            height: 250px;
         }
 
            .padding-top{
@@ -160,7 +168,7 @@
             margin-right: 800px;
         }  
 
-        .photo-page2{
+        .photo-size2{
             width: 150px;
             height: 140px;
         }
