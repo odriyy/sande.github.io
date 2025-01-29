@@ -178,6 +178,10 @@
             height: 250px;
         }
 
+         .photo-size4{
+            width: 400px;
+            height: 400px;
+
            .padding-top{
             padding-top: 80px;
         }
