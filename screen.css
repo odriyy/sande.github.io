@@ -94,6 +94,11 @@
             float: left;
         }
 
+        .my-padding{
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+
         .motivation-margin{
             margin-top: -20px;
             margin-left: 390px;
