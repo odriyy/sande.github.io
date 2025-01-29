@@ -54,6 +54,16 @@
             letter-spacing: 2px;
                         }
 
+        .poppins-thick2 {
+            font-family: "Poppins" ;
+            font-weight: 900;
+            font-style: normal;
+            word-spacing: 10px;
+            color: white;
+            font-size: 34px;
+            letter-spacing: 2px;
+                        }
+
         .poppins-new {
             font-family: "Poppins" ;
             font-weight: 500;
