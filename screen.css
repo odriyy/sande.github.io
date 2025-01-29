@@ -107,11 +107,15 @@
         .custom-bg1{
         background-image: url('./picture/header2.jpg')}
 
-        .custom-bgpage3{
-                height: 500px;
-                width: 100%;
+        .custom-bg3{
+            height: 500px;
+            width : 100%;
+            background-image: url('./picture/header3.jpg');
+            background-size: cover; /* Ensures the entire image is visible */
+            background-repeat: no-repeat; 
 
-        }
+         }
+
         
         .poppins-thick1 {
             padding-top: 40px;
